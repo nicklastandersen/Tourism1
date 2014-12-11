@@ -1,0 +1,14 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\nicklas\documents\visual studio 2013\projects\turistapp5\turistapp5\turistapp5.windows\obj\x64\debug\intermediatexaml\turistapp5.windows.exe" HashGuid="38465675-9dfe-50df-9f75-c658405ee4d4" />
+    <ReferenceAssembly PathName="c:\users\nicklas\appdata\local\microsoft sdks\windows\v8.1\extensionsdks\bing.maps.xaml\1.313.0825.0\references\commonconfiguration\neutral\bing.maps.winmd" HashGuid="dcdce9e5-521a-6d20-3956-9df814dff813" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\microsoft.vclibs\12.0\references\commonconfiguration\neutral\platform.winmd" HashGuid="58b6b6d1-928e-9908-9804-eb460e5e101b" />
+    <ReferenceAssembly PathName="c:\users\nicklas\documents\visual studio 2013\projects\turistapp5\packages\facebook.6.8.0\lib\win8\facebook.dll" HashGuid="2994024a-c266-83e1-c718-df8bd8320f21" />
+    <ReferenceAssembly PathName="c:\users\nicklas\documents\visual studio 2013\projects\turistapp5\packages\instasharp.2.0.0-beta7\lib\portable-net403+sl5+wp8+win8\instasharp.dll" HashGuid="7ff462a2-e989-64ea-7f9b-f5cc2ea697de" />
+    <ReferenceAssembly PathName="c:\users\nicklas\documents\visual studio 2013\projects\turistapp5\packages\microsoft.bcl.async.1.0.168\lib\win8\microsoft.threading.tasks.dll" HashGuid="3a1beea5-1547-d5c6-af32-3b5c761c2a6a" />
+    <ReferenceAssembly PathName="c:\users\nicklas\documents\visual studio 2013\projects\turistapp5\packages\microsoft.bcl.async.1.0.168\lib\win8\microsoft.threading.tasks.extensions.dll" HashGuid="79a01987-c06c-c9d7-37eb-629809787680" />
+    <ReferenceAssembly PathName="c:\users\nicklas\documents\visual studio 2013\projects\turistapp5\packages\newtonsoft.json.6.0.4\lib\netcore45\newtonsoft.json.dll" HashGuid="21d6fdf9-5b56-582d-4524-cf342594819a" />
+    <ReferenceAssembly PathName="c:\users\nicklas\documents\visual studio 2013\projects\turistapp5\packages\microsoft.net.http.2.2.22\lib\win8\system.net.http.extensions.dll" HashGuid="b50282f8-b9f8-4408-8d49-ba2efe301624" />
+    <ReferenceAssembly PathName="c:\users\nicklas\documents\visual studio 2013\projects\turistapp5\packages\microsoft.net.http.2.2.22\lib\win8\system.net.http.primitives.dll" HashGuid="7b71418d-e056-7613-c839-85fb8f6472a6" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

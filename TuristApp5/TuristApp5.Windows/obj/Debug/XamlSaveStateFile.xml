@@ -1,0 +1,9 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\nicklas\documents\visual studio 2013\projects\turistapp5\turistapp5\turistapp5.windows\obj\debug\intermediatexaml\turistapp5.windows.exe" HashGuid="336fb57d-c12d-e529-0baa-da958b068075" />
+    <ReferenceAssembly PathName="c:\users\nicklas\documents\github\tourism1\packages\microsoft.bcl.async.1.0.168\lib\win8\microsoft.threading.tasks.dll" HashGuid="3a1beea5-1547-d5c6-af32-3b5c761c2a6a" />
+    <ReferenceAssembly PathName="c:\users\nicklas\documents\github\tourism1\packages\microsoft.bcl.async.1.0.168\lib\win8\microsoft.threading.tasks.extensions.dll" HashGuid="79a01987-c06c-c9d7-37eb-629809787680" />
+    <ReferenceAssembly PathName="c:\users\nicklas\documents\github\tourism1\packages\microsoft.net.http.2.2.22\lib\win8\system.net.http.extensions.dll" HashGuid="b50282f8-b9f8-4408-8d49-ba2efe301624" />
+    <ReferenceAssembly PathName="c:\users\nicklas\documents\github\tourism1\packages\microsoft.net.http.2.2.22\lib\win8\system.net.http.primitives.dll" HashGuid="7b71418d-e056-7613-c839-85fb8f6472a6" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>
