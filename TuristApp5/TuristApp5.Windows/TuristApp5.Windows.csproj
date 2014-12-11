@@ -109,7 +109,6 @@
     <Compile Include="Common\SuspensionManager.cs" />
     <Compile Include="Model\Beskrivelse.cs" />
     <Compile Include="Model\Kategori.cs" />
-    <Compile Include="Model\underkategori.cs" />
     <Compile Include="Properties\Annotations.cs" />
     <Compile Include="ViewModel\Common.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />

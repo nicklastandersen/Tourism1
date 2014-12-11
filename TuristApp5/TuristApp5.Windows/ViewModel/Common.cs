@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.ApplicationModel.Appointments.AppointmentsProvider;
 using TuristApp5.Model;
 
 namespace TuristApp5.ViewModel
@@ -11,8 +13,15 @@ namespace TuristApp5.ViewModel
     {
         private Common()
         {
-
+            kategorier = new ObservableCollection<Kategori>();
         }
+
+        public void Addkategori(Kategori kategori)
+        {
+            kategorier.Add(kategori);
+        }
+
+        
 
         private static Common _instance=new Common();
 
@@ -20,6 +29,9 @@ namespace TuristApp5.ViewModel
         {
             get { return _instance; }
         }
+
+        private ObservableCollection<Kategori> kategorier;
+
 
         private static Kategori _SelectedKategori;
 

@@ -24,7 +24,8 @@ namespace TuristApp5.ViewModel
 
         private Kategori rosTorv1 = new Kategori("Ro's Torv", "ms-appx:///assets/transport.png");
         private Kategori rosTorv2 = new Kategori("Ro's Torv", "ms-appx:///assets/transport.png");
-        private Kategori rosTorv3 = new Kategori("Ro's Torv", "ms-appx:///assets/transport.png")
+        private Kategori rosTorv3 = new Kategori("Ro's Torv", "ms-appx:///assets/transport.png");
+
 
        
 
@@ -82,10 +83,21 @@ namespace TuristApp5.ViewModel
         }
 
 
+        public Common common { get; set; }
+
+        public MainViewModel()
+        {
+            common = Common.Instance;
+        }
+
+
         public override string ToString()
         {
             return string.Format("Oplev Roskilde: {0}, Sov godt: {1}, Spis godt: {2}", oplevroskilde, sovgodt, spisgodt);
         }
+
+
+
 
 
         public event PropertyChangedEventHandler PropertyChanged;

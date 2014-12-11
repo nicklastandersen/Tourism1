@@ -110,32 +110,32 @@ namespace TuristApp5.View
 
         private void Billede_2_PointerPressed(object sender, PointerRoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Beskrivelse));
+            this.Frame.Navigate(typeof(Underkategori));
         }
 
 
         private void Billede_3_PointerPressed(object sender, PointerRoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Beskrivelse));
+            this.Frame.Navigate(typeof(Underkategori));
         }
 
         private void Billede_4_PointerPressed(object sender, PointerRoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Beskrivelse));
+            this.Frame.Navigate(typeof(Underkategori));
         }
         private void Billede_5_PointerPressed(object sender, PointerRoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Beskrivelse));
+            this.Frame.Navigate(typeof(Underkategori));
         }
 
         private void Billede_6_PointerPressed(object sender, PointerRoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Beskrivelse));
+            this.Frame.Navigate(typeof(Underkategori));
         }
 
         private void Billede_2_2_PointerPressed(object sender, PointerRoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Beskrivelse));
+            this.Frame.Navigate(typeof(Underkategori));
         }
 
    

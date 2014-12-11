@@ -52,8 +52,14 @@
             </TextBlock>
             <Image Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="1022,10,0,0" VerticalAlignment="Top" Width="100" Source="ms-appx:///Assets/goorange.png"/>
         </Grid>
+        <ListViewItem Content="{Binding Sovgodt.Navn}" HorizontalAlignment="Left" Margin="44,103,0,0" Grid.Row="1" VerticalAlignment="Top" Height="434" Width="350" Foreground="Black">
+            <ListViewItem.DataContext>
+                <ViewModel:MainViewModel/>
+            </ListViewItem.DataContext>
+        </ListViewItem>
         <TextBlock HorizontalAlignment="Left" Margin="446,61,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="340" RenderTransformOrigin="0.5,0.5" Width="378" Foreground="Black"/>
         <Image HorizontalAlignment="Left" Height="337" Margin="915,61,0,0" VerticalAlignment="Top" Width="337" Grid.Row="1"/>
         <HyperlinkButton Content="HyperlinkButton" HorizontalAlignment="Left" Margin="1005,484,0,0" Grid.Row="1" VerticalAlignment="Top"/>
     </Grid>
 </Page>
+

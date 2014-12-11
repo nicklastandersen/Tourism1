@@ -7,7 +7,7 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>4970d874-fb18-47e5-bf9a-90ca56a8fee6</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\Nicklas\documents\visual studio 2013\Projects\TuristApp5\TuristApp5\TuristApp5.Windows\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\obj\Debug\</IntermediateOutputPath>
     <RegisteredManifestChecksum>4BF224048A074AE6BCE8D64F9326AE57C0D4C05A08EB2D17B42A48066A61431C</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>4970d874-fb18-47e5-bf9a-90ca56a8fee6_1.0.0.0_neutral__mastmqkw3qxt4</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>4970d874-fb18-47e5-bf9a-90ca56a8fee6_mastmqkw3qxt4!App</RegisteredUserModeAppID>
@@ -17,108 +17,104 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Nicklas\documents\visual studio 2013\Projects\TuristApp5\TuristApp5\TuristApp5.Windows\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-12-08T15:28:39.823</Modified>
+      <Modified>2014-12-11T12:19:55.099</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Nicklas\documents\visual studio 2013\Projects\TuristApp5\TuristApp5\TuristApp5.Windows\bin\Debug\TuristApp5.Windows.exe">
+    <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\bin\Debug\TuristApp5.Windows.exe">
       <PackagePath>TuristApp5.Windows.exe</PackagePath>
-      <Modified>2014-12-08T15:36:39.175</Modified>
+      <Modified>2014-12-11T13:00:44.608</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nicklas\documents\visual studio 2013\Projects\TuristApp5\packages\Microsoft.Bcl.Async.1.0.168\lib\win8\Microsoft.Threading.Tasks.dll">
+    <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\packages\Microsoft.Bcl.Async.1.0.168\lib\win8\Microsoft.Threading.Tasks.dll">
       <PackagePath>Microsoft.Threading.Tasks.dll</PackagePath>
       <Modified>2014-12-05T00:39:53.930</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nicklas\documents\visual studio 2013\Projects\TuristApp5\packages\Microsoft.Bcl.Async.1.0.168\lib\win8\Microsoft.Threading.Tasks.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\packages\Microsoft.Bcl.Async.1.0.168\lib\win8\Microsoft.Threading.Tasks.Extensions.dll">
       <PackagePath>Microsoft.Threading.Tasks.Extensions.dll</PackagePath>
       <Modified>2014-12-05T00:39:53.980</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nicklas\documents\visual studio 2013\Projects\TuristApp5\packages\Microsoft.Net.Http.2.2.22\lib\win8\System.Net.Http.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\packages\Microsoft.Net.Http.2.2.22\lib\win8\System.Net.Http.Extensions.dll">
       <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
       <Modified>2014-12-05T00:39:57.271</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nicklas\documents\visual studio 2013\Projects\TuristApp5\packages\Microsoft.Net.Http.2.2.22\lib\win8\System.Net.Http.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\packages\Microsoft.Net.Http.2.2.22\lib\win8\System.Net.Http.Primitives.dll">
       <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
       <Modified>2014-12-05T00:39:57.298</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nicklas\documents\visual studio 2013\Projects\TuristApp5\TuristApp5\TuristApp5.Windows\Assets\FB-fLogo-Blue-printpackaging.png">
+    <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\Assets\FB-fLogo-Blue-printpackaging.png">
       <PackagePath>Assets\FB-fLogo-Blue-printpackaging.png</PackagePath>
       <Modified>2014-12-04T14:42:57.382</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nicklas\documents\visual studio 2013\Projects\TuristApp5\TuristApp5\TuristApp5.Windows\Assets\turforslag.png">
+    <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\Assets\turforslag.png">
       <PackagePath>Assets\turforslag.png</PackagePath>
       <Modified>2014-12-04T13:27:56.586</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nicklas\documents\visual studio 2013\Projects\TuristApp5\TuristApp5\TuristApp5.Windows\Assets\roskilde.png">
+    <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\Assets\roskilde.png">
       <PackagePath>Assets\roskilde.png</PackagePath>
       <Modified>2014-12-04T13:08:58.761</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nicklas\documents\visual studio 2013\Projects\TuristApp5\TuristApp5\TuristApp5.Windows\Assets\spisgodt.png">
+    <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\Assets\spisgodt.png">
       <PackagePath>Assets\spisgodt.png</PackagePath>
       <Modified>2014-12-04T12:41:37.823</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nicklas\documents\visual studio 2013\Projects\TuristApp5\TuristApp5\TuristApp5.Windows\Assets\sovgodt.png">
+    <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\Assets\sovgodt.png">
       <PackagePath>Assets\sovgodt.png</PackagePath>
       <Modified>2014-12-04T12:41:37.814</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nicklas\documents\visual studio 2013\Projects\TuristApp5\TuristApp5\TuristApp5.Windows\Assets\goorange.png">
+    <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\Assets\goorange.png">
       <PackagePath>Assets\goorange.png</PackagePath>
       <Modified>2014-12-04T12:41:37.832</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nicklas\documents\visual studio 2013\Projects\TuristApp5\TuristApp5\TuristApp5.Windows\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-03-14T08:55:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nicklas\documents\visual studio 2013\Projects\TuristApp5\TuristApp5\TuristApp5.Windows\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-03-14T08:55:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nicklas\documents\visual studio 2013\Projects\TuristApp5\TuristApp5\TuristApp5.Windows\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-03-14T08:55:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nicklas\documents\visual studio 2013\Projects\TuristApp5\TuristApp5\TuristApp5.Windows\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2014-03-14T08:55:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nicklas\documents\visual studio 2013\Projects\TuristApp5\TuristApp5\TuristApp5.Windows\Assets\transport.png">
+    <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\Assets\transport.png">
       <PackagePath>Assets\transport.png</PackagePath>
       <Modified>2014-12-04T12:41:37.841</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nicklas\documents\visual studio 2013\Projects\TuristApp5\TuristApp5\TuristApp5.Windows\Assets\minimal_grey-1280x800.jpg">
+    <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\Assets\minimal_grey-1280x800.jpg">
       <PackagePath>Assets\minimal_grey-1280x800.jpg</PackagePath>
       <Modified>2014-12-03T11:22:08.572</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nicklas\documents\visual studio 2013\Projects\TuristApp5\TuristApp5\TuristApp5.Windows\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2014-12-08T15:28:37.528</Modified>
+      <Modified>2014-12-08T15:37:42.927</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nicklas\documents\visual studio 2013\Projects\TuristApp5\TuristApp5\TuristApp5.Windows\bin\Debug\View\Beskrivelse.xbf">
-      <PackagePath>View\Beskrivelse.xbf</PackagePath>
-      <Modified>2014-12-08T15:28:37.530</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nicklas\documents\visual studio 2013\Projects\TuristApp5\TuristApp5\TuristApp5.Windows\bin\Debug\View\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\bin\Debug\View\MainPage.xbf">
       <PackagePath>View\MainPage.xbf</PackagePath>
-      <Modified>2014-12-08T15:28:37.538</Modified>
+      <Modified>2014-12-11T12:19:52.748</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nicklas\documents\visual studio 2013\Projects\TuristApp5\TuristApp5\TuristApp5.Windows\bin\Debug\View\SplitPage1.xbf">
-      <PackagePath>View\SplitPage1.xbf</PackagePath>
-      <Modified>2014-12-08T15:28:37.547</Modified>
+    <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\bin\Debug\View\Underkategori.xbf">
+      <PackagePath>View\Underkategori.xbf</PackagePath>
+      <Modified>2014-12-11T13:00:43.630</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nicklas\documents\visual studio 2013\Projects\TuristApp5\TuristApp5\TuristApp5.Windows\bin\Debug\TuristApp5.Windows.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\bin\Debug\TuristApp5.Windows.xr.xml">
       <PackagePath>TuristApp5.Windows.xr.xml</PackagePath>
-      <Modified>2014-12-08T15:28:37.460</Modified>
+      <Modified>2014-12-11T13:00:43.444</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nicklas\documents\visual studio 2013\Projects\TuristApp5\TuristApp5\TuristApp5.Windows\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-12-08T15:28:39.627</Modified>
+      <Modified>2014-12-11T12:19:54.475</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
