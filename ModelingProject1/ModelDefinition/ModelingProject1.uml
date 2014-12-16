@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel"
   dslVersion="1.0.0.0"
   Id="e4ec118b-8784-4a1c-b198-a0a4d88b6827"
   name="ModelingProject1" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
@@ -30,12 +30,12 @@
             Id="6b5b95f8-1503-4b08-be70-96429fca3796"
             isDerived="false"
             sourceEndRoleName="Kategori"
-            targetEndRoleName="ItemsKategori"
+            targetEndRoleName="Beskrivelse"
             isLeaf="false"
             isAbstract="false">
             <classMoniker
               Id="b1af8332-f00b-4125-bd37-3b5fb85fc52d"
-              LastKnownName="ItemsKategori"
+              LastKnownName="Beskrivelse"
               LastKnownLocation="ModelingProject1.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -54,7 +54,7 @@
               <associationHasOwnedEnds>
                 <memberEnd
                   Id="2df059e9-49d9-415b-a711-718acf2e82f9"
-                  name="ItemsKategori"
+                  name="Beskrivelse"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -138,7 +138,7 @@
     <packageHasNamedElement>
       <class
         Id="b1af8332-f00b-4125-bd37-3b5fb85fc52d"
-        name="ItemsKategori"
+        name="Beskrivelse"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -146,7 +146,7 @@
           <association
             Id="95d14fa7-61b2-4c87-83ab-baf0aa8e37ef"
             isDerived="false"
-            sourceEndRoleName="ItemsKategori"
+            sourceEndRoleName="Beskrivelse"
             targetEndRoleName="Rating"
             isLeaf="false"
             isAbstract="false">
@@ -158,7 +158,7 @@
               <associationHasOwnedEnds>
                 <memberEnd
                   Id="95742e5a-75dc-4b76-80e5-7b5c930d72f7"
-                  name="ItemsKategori"
+                  name="Beskrivelse"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -227,8 +227,231 @@
             isDerivedUnion="false"
             aggregation="None"
             isComposite="false" />
+          <property
+            Id="5d67fec8-1bdd-4ea9-be01-4d62dd58e76b"
+            name="Aabningstider"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
         </ownedAttributesInternal>
       </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="8fa9c561-8706-4f2a-bcb9-fbf388b5016f"
+        LastKnownName="View"
+        LastKnownLocation="Package_1109.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="e687d2d9-5735-4b28-94c8-5ed3b0c119b5"
+        LastKnownName="ViewModel"
+        LastKnownLocation="Package_1114.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="152d5a8f-0d1b-4be7-9f68-c8989d558372"
+        name="Bruger"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="85dd2d8d-ba82-45d4-98e6-60bf691ca478"
+            isDerived="false"
+            sourceEndRoleName="Bruger"
+            targetEndRoleName="Vælg Kategori"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="50354782-97e6-4e66-aee6-99763f736fed"
+              LastKnownName="Vælg Kategori"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1e507c45-efb9-4324-a8c8-74d4faec7db5"
+                  name="Bruger"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4d1b6318-3d08-4e79-ba48-8cb905bf7dc4"
+                  name="Vælg Kategori"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="7972b9ed-dff6-43aa-ac11-f60d80751fb1"
+            isDerived="false"
+            sourceEndRoleName="Bruger"
+            targetEndRoleName="Vælg Underkategori/Attraktion"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="a2c6a80c-73a4-4491-80e1-806658901bcf"
+              LastKnownName="Vælg Underkategori/Attraktion"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="697a0913-cf9c-4b8d-b848-530e3ea43813"
+                  name="Bruger"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="58955008-5750-4c72-8f99-16d66781fb6f"
+                  name="Vælg Underkategori/Attraktion"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="1a09a281-3abc-4ee6-a811-6d153d908411"
+            isDerived="false"
+            sourceEndRoleName="Bruger"
+            targetEndRoleName="Læs om det valgte."
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="63116c1c-dc3c-4bbd-9e19-5d232a955092"
+              LastKnownName="Læs om det valgte."
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4146f7e0-bb8d-4514-a636-cb8259a3879a"
+                  name="Bruger"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e83e22d4-0a80-470b-8dc8-f361bd9c8d51"
+                  name="Læs om det valgte."
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="641411fe-931d-476e-b700-ae16ff670185"
+            isDerived="false"
+            sourceEndRoleName="Bruger"
+            targetEndRoleName="Tilføj kommenter Eller gå til web."
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="5d48210b-c31a-4754-9ac3-4f7f58fb9961"
+              LastKnownName="Tilføj kommenter Eller gå til web."
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="507362f0-e1f3-4c05-b1c5-71ede22ae7da"
+                  name="Bruger"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e7098862-ca1f-4c66-8c15-ad6aa3947d87"
+                  name="Tilføj kommenter Eller gå til web."
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="50354782-97e6-4e66-aee6-99763f736fed"
+        name="Vælg Kategori"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a2c6a80c-73a4-4491-80e1-806658901bcf"
+        name="Vælg Underkategori/Attraktion"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="63116c1c-dc3c-4bbd-9e19-5d232a955092"
+        name="Læs om det valgte."
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="5d48210b-c31a-4754-9ac3-4f7f58fb9961"
+        name="Tilføj kommenter Eller gå til web."
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="118a71bc-faf4-4619-9b33-be90f1a7e183"
+        LastKnownName="Model"
+        LastKnownLocation="Package_1150.uml" />
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType

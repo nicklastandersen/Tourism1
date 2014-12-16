@@ -1,26 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="54da7f10-2f6c-482c-abf1-89eaae31adc5" name="DomainModel" linkedPackageId="7e854c72-3021-434d-b5e1-c6ff337ee947" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
-  <profileInstances>
-    <packageHasProfileInstances Id="43212930-12fa-405a-a857-62fa4e90ea4c">
-      <profileInstance Id="967d8c73-8f1c-4354-8c25-8815f04e2025" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="5fd93062-8ec5-4b3a-87a1-cfd79f6888b6">
-      <profileInstance Id="2453bf24-bb86-4587-91a8-ed3d0e8d7d74" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <logicalClassDesignerModelHasTypes>
       <class Id="1317b4d8-2b89-4f20-b600-dc4b6fa36e9d" name="Kategori" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="1c698bfe-9c2b-4141-be68-4c0d4603a923" />
         <targetEnds>
-          <association Id="d7f702b9-ddc0-4dd4-9907-8532f61cad7f" isDerived="false" sourceEndRoleName="Kategori" targetEndRoleName="ItemsKategori" isLeaf="false" isAbstract="false">
-            <classMoniker Id="136cc7bf-4510-4e56-90f6-51ec2f99b3f9" LastKnownName="ItemsKategori" />
+          <association Id="d7f702b9-ddc0-4dd4-9907-8532f61cad7f" isDerived="false" sourceEndRoleName="Kategori" targetEndRoleName="Beskrivelse" isLeaf="false" isAbstract="false">
+            <classMoniker Id="136cc7bf-4510-4e56-90f6-51ec2f99b3f9" LastKnownName="Beskrivelse" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd Id="3f8c648d-fe4b-4f0e-9ab8-9b23880687b5" name="Kategori" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
@@ -28,7 +14,7 @@
                 </memberEnd>
               </associationHasOwnedEnds>
               <associationHasOwnedEnds>
-                <memberEnd Id="30b848e3-9dc6-4fea-a26b-8ef9fbe2d2fb" name="ItemsKategori" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                <memberEnd Id="30b848e3-9dc6-4fea-a26b-8ef9fbe2d2fb" name="Beskrivelse" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
                   <elementDefinition Id="2df059e9-49d9-415b-a711-718acf2e82f9" />
                 </memberEnd>
               </associationHasOwnedEnds>
@@ -63,14 +49,14 @@
       </class>
     </logicalClassDesignerModelHasTypes>
     <logicalClassDesignerModelHasTypes>
-      <class Id="136cc7bf-4510-4e56-90f6-51ec2f99b3f9" name="ItemsKategori" isAbstract="false" isLeaf="false" isActiveClass="false">
+      <class Id="136cc7bf-4510-4e56-90f6-51ec2f99b3f9" name="Beskrivelse" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="b1af8332-f00b-4125-bd37-3b5fb85fc52d" />
         <targetEnds>
-          <association Id="119f873a-4378-4b98-bcd8-191f9405d6e9" isDerived="false" sourceEndRoleName="ItemsKategori" targetEndRoleName="Rating" isLeaf="false" isAbstract="false">
+          <association Id="119f873a-4378-4b98-bcd8-191f9405d6e9" isDerived="false" sourceEndRoleName="Beskrivelse" targetEndRoleName="Rating" isLeaf="false" isAbstract="false">
             <classMoniker Id="b3a2b0a0-5758-45c3-9bfc-6fdda24d1caf" LastKnownName="Rating" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
-                <memberEnd Id="dddbb405-4ca7-4047-92dd-e85070992fa3" name="ItemsKategori" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                <memberEnd Id="dddbb405-4ca7-4047-92dd-e85070992fa3" name="Beskrivelse" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
                   <elementDefinition Id="95742e5a-75dc-4b76-80e5-7b5c930d72f7" />
                 </memberEnd>
               </associationHasOwnedEnds>
@@ -96,11 +82,28 @@
           <property Id="b1ea7adc-7b00-4b65-9b41-b77d99f1e05b" name="Link" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="522bd587-bb4d-4173-8694-48bb44334d54" />
           </property>
+          <property Id="d36b4e40-3f7b-4069-8ede-24d484029b3a" name="Aabningstider" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5d67fec8-1bdd-4ea9-be01-4d62dd58e76b" />
+          </property>
         </ownedAttributesInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
   </packagedElements>
   <package Id="7e854c72-3021-434d-b5e1-c6ff337ee947" name="ModelingProject1">
     <elementDefinition Id="e4ec118b-8784-4a1c-b198-a0a4d88b6827" />
+    <profileInstances>
+      <packageHasProfileInstances Id="43212930-12fa-405a-a857-62fa4e90ea4c">
+        <profileInstance Id="967d8c73-8f1c-4354-8c25-8815f04e2025" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="5fd93062-8ec5-4b3a-87a1-cfd79f6888b6">
+        <profileInstance Id="2453bf24-bb86-4587-91a8-ed3d0e8d7d74" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </logicalClassDesignerModel>

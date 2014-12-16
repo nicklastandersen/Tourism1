@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{3879e73e-bd5f-40e2-b402-7b08b685d2ae}</ProjectGuid>
     <ArchitectureToolsVersion>2.0.0.0</ArchitectureToolsVersion>
-    <Name>ModelingProject1</Name>
+    <Name>UML Projekt</Name>
     <RootNamespace>ModelingProject1</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -22,12 +22,38 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
   <ItemGroup>
+    <Content Include="DesignKlasseDiagram.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="DesignKlasseDiagram.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>DesignKlasseDiagram.classdiagram</DependentUpon>
+    </Content>
     <Content Include="DomainModel.classdiagram">
       <SubType>Content</SubType>
     </Content>
     <Content Include="DomainModel.classdiagram.layout">
       <SubType>Content</SubType>
       <DependentUpon>DomainModel.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ModelDefinition\Package_1109.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1114.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ModelDefinition\Package_1150.uml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UseCase.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UseCase.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UseCase.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>UseCase.usecasediagram</DependentUpon>
     </Content>
     <Folder Include="ModelDefinition\" />
     <Content Include="ModelDefinition\ModelingProject1.uml">

@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="e687d2d9-5735-4b28-94c8-5ed3b0c119b5"
+  name="ViewModel" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="352df721-e840-412f-a12f-e3ecb826f455"
+        name="MainViewModel"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="3b8d7bda-6645-415d-a730-3a0002896048"
+            isDerived="false"
+            sourceEndRoleName="MainViewModel"
+            targetEndRoleName="Common"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="ea1bfb0e-41af-4ebe-ae63-904d6a4cacdf"
+              LastKnownName="Common"
+              LastKnownLocation="Package_1114.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="946bfa2f-0c1d-4994-8562-6a71bb7c64b0"
+                  name="MainViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b2337504-d622-47f7-b401-91e047f99e47"
+                  name="Common"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="df842c97-f233-4ec7-9499-38d141bc199a"
+            isDerived="false"
+            sourceEndRoleName="MainViewModel"
+            targetEndRoleName="Relay Command"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="55385626-9e59-4010-9de6-ebf44bba2c6a"
+              LastKnownName="Relay Command"
+              LastKnownLocation="Package_1114.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3904b71d-df79-4a47-8452-8d2a81b89c3e"
+                  name="MainViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5af65a5e-d52e-4033-a7fa-d460437bd5ee"
+                  name="Relay Command"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="1a9a05ab-cf8b-4546-a4ed-ff72e99c72dc"
+            name="_selectedKategori"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="b1703ea4-ddce-4e61-bb0d-6f47b5240339"
+                LastKnownName="Kategori"
+                LastKnownLocation="Package_1114.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="94dd705a-e8f8-484d-98c6-ff5ef3578296"
+            name="_selectedBeskrivelse"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="35e3edf4-569d-481b-a90d-c24b22535d8d"
+                LastKnownName="Beskrivelse"
+                LastKnownLocation="Package_1114.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="b8d2b9fa-2141-4edc-9949-a22953f4bd5c"
+        name="Kategorii" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="b1703ea4-ddce-4e61-bb0d-6f47b5240339"
+        name="Kategori" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="35e3edf4-569d-481b-a90d-c24b22535d8d"
+        name="Beskrivelse" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="55385626-9e59-4010-9de6-ebf44bba2c6a"
+        name="Relay Command"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ea1bfb0e-41af-4ebe-ae63-904d6a4cacdf"
+        name="Common"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="6bdc4d41-2550-4d25-8b70-d405063862ac"
+            isDerived="false"
+            sourceEndRoleName="Common"
+            targetEndRoleName="Beskrivelse"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="d6f35f3e-4ada-4aab-81ef-73c0e2aecd33"
+              LastKnownName="Beskrivelse"
+              LastKnownLocation="Package_1150.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="92d85c3d-4350-46e0-9e21-16186ef67304"
+                  name="Common"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="45444e9f-2f2e-4295-ba64-15b7654343ca"
+                  name="Beskrivelse"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

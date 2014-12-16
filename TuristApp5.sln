@@ -9,7 +9,7 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TuristApp5.Shared", "Turist
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuristApp5.Windows", "TuristApp5\TuristApp5.Windows\TuristApp5.Windows.csproj", "{C95F99B8-E4C7-4AB7-9BC3-CF4A2C5D3266}"
 EndProject
-Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProject1", "ModelingProject1\ModelingProject1.modelproj", "{3879E73E-BD5F-40E2-B402-7B08B685D2AE}"
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "UML Projekt", "ModelingProject1\UML Projekt.modelproj", "{3879E73E-BD5F-40E2-B402-7B08B685D2AE}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution

@@ -1,0 +1,6 @@
+﻿
+I denne app skal brugeren starte med at vælge kategori. 
+Når brugeren har fundet sin kategori får brugeren mulighed for, at vælge en underkategori.
+Herfter kan brugeren læse om det valgte.
+Brugeren kan herefter vælge, at tilføje en kommentar til det valgte.
+Eller brugeren kan vælge, at gå videre til en hjemmeside og læse mere. 
