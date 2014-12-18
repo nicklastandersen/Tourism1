@@ -8,13 +8,15 @@
     xmlns:ViewModel="using:TuristApp5.ViewModel"
     x:Name="pageRoot"
     x:Class="TuristApp5.View.Underkategori"
-    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Mode=Self}}"
     mc:Ignorable="d">
 
     <Page.Resources>
         <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
         <x:String x:Key="AppName">My Application</x:String>
     </Page.Resources>
+    <Page.DataContext>
+        <ViewModel:MainViewModel/>
+    </Page.DataContext>
 
     <!--
         This grid acts as a root panel for the page that defines two rows:
@@ -52,14 +54,14 @@
             </TextBlock>
             <Image Grid.Column="1" HorizontalAlignment="Left" Height="100" Margin="1022,10,0,0" VerticalAlignment="Top" Width="100" Source="ms-appx:///Assets/goorange.png"/>
         </Grid>
-        <ListViewItem Content="{Binding Sovgodt.Navn}" HorizontalAlignment="Left" Margin="44,103,0,0" Grid.Row="1" VerticalAlignment="Top" Height="434" Width="350" Foreground="Black">
-            <ListViewItem.DataContext>
+        <HyperlinkButton x:Name="ValgtHyperlink" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="944,492,0,0" Grid.Row="1" Height="49" Width="166" NavigateUri="{Binding Common.SelectedBeskrivelse.Hjemmeside}" Content="Læs Mere" Background="#FFE75711" Foreground="White"/>
+        <TextBlock x:Name="valgtNavn" HorizontalAlignment="Left" TextWrapping="Wrap" Text="{Binding Common.SelectedBeskrivelse.Navn1}" VerticalAlignment="Top" Height="46" RenderTransformOrigin="0.5,0.5" Width="388" Foreground="Black" Grid.RowSpan="1" Margin="367,119,0,0" Grid.Row="1" FontSize="36">
+            <TextBlock.DataContext>
                 <ViewModel:MainViewModel/>
-            </ListViewItem.DataContext>
-        </ListViewItem>
-        <TextBlock HorizontalAlignment="Left" Margin="446,61,0,0" Grid.Row="1" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="340" RenderTransformOrigin="0.5,0.5" Width="378" Foreground="Black"/>
-        <Image HorizontalAlignment="Left" Height="337" Margin="915,61,0,0" VerticalAlignment="Top" Width="337" Grid.Row="1"/>
-        <HyperlinkButton Content="HyperlinkButton" HorizontalAlignment="Left" Margin="1005,484,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+            </TextBlock.DataContext>
+        </TextBlock>
+        <Image x:Name="valgtBillede" HorizontalAlignment="Left" Height="325" VerticalAlignment="Top" Width="361" Stretch="Fill" Source="{Binding Common.SelectedBeskrivelse.Billed1}" Margin="367,234,0,0" Grid.Row="1"/>
+        <TextBlock x:Name="valgtBeskrivelse" HorizontalAlignment="Left" Margin="845,109,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="310" Width="381" Text="{Binding Common.SelectedBeskrivelse.Beskrivelse1}" Foreground="Black" FontSize="16"/>
     </Grid>
 </Page>
 

@@ -15,6 +15,7 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
 // The Basic Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234237
+using TuristApp5.ViewModel;
 
 namespace TuristApp5.View
 {
@@ -105,31 +106,37 @@ namespace TuristApp5.View
 
         private void Billede_1_PointerPressed(object sender, PointerRoutedEventArgs e)
         {
+            ViewModel.Common.Instance.SelectedBeskrivelse = ViewModel.Common.Instance.Kategori[0].Beskrivelse[0];
             this.Frame.Navigate(typeof(Underkategori));
         }
 
         private void Billede_2_PointerPressed(object sender, PointerRoutedEventArgs e)
         {
+            ViewModel.Common.Instance.SelectedBeskrivelse = ViewModel.Common.Instance.Kategori[1].Beskrivelse[0];
             this.Frame.Navigate(typeof(Underkategori));
         }
 
 
         private void Billede_3_PointerPressed(object sender, PointerRoutedEventArgs e)
         {
+            ViewModel.Common.Instance.SelectedBeskrivelse = ViewModel.Common.Instance.Kategori[2].Beskrivelse[0];
             this.Frame.Navigate(typeof(Underkategori));
         }
 
         private void Billede_4_PointerPressed(object sender, PointerRoutedEventArgs e)
         {
+            ViewModel.Common.Instance.SelectedBeskrivelse = ViewModel.Common.Instance.Kategori[3].Beskrivelse[0];
             this.Frame.Navigate(typeof(Underkategori));
         }
         private void Billede_5_PointerPressed(object sender, PointerRoutedEventArgs e)
         {
+            ViewModel.Common.Instance.SelectedBeskrivelse = ViewModel.Common.Instance.Kategori[4].Beskrivelse[0];
             this.Frame.Navigate(typeof(Underkategori));
         }
 
         private void Billede_6_PointerPressed(object sender, PointerRoutedEventArgs e)
         {
+            ViewModel.Common.Instance.SelectedBeskrivelse = ViewModel.Common.Instance.Kategori[5].Beskrivelse[0];
             this.Frame.Navigate(typeof(Underkategori));
         }
 

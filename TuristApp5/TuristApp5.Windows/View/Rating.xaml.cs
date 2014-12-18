@@ -102,5 +102,10 @@ namespace TuristApp5.View
         }
 
         #endregion
+
+        private void pageTitle_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

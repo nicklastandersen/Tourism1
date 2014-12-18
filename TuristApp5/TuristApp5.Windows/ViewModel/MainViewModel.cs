@@ -14,20 +14,22 @@ namespace TuristApp5.ViewModel
 {
     class MainViewModel :INotifyPropertyChanged
     {
+        private Common _common = Common.Instance;
+
+        public Common Common
+        {
+            get { return _common; }
+            set { _common = value; }
+        }
+
+
+
         private Kategori oplevroskilde = new Kategori("Oplev Roskilde", "ms-appx:///assets/roskilde.png");
         private Kategori sovgodt = new Kategori("Sov Godt", "ms-appx:///assets/sovgodt.png");
         private Kategori spisgodt = new Kategori("Spis Godt", "ms-appx:///assets/spisgodt.png");
         private Kategori turforslag = new Kategori("Tur Forslag", "ms-appx:///assets/turforslag.png");
         private Kategori goorange = new Kategori("GO ORANGE", "ms-appx:///assets/goorange.png");
         private Kategori transport = new Kategori("Transport", "ms-appx:///assets/transport.png");
-
-
-        private Kategori rosTorv1 = new Kategori("Ro's Torv", "ms-appx:///assets/transport.png");
-        private Kategori rosTorv2 = new Kategori("Ro's Torv", "ms-appx:///assets/transport.png");
-        private Kategori rosTorv3 = new Kategori("Ro's Torv", "ms-appx:///assets/transport.png");
-
-
-       
 
 
         public Kategori Oplevroskilde
@@ -66,39 +68,18 @@ namespace TuristApp5.ViewModel
             set { transport = value; }
         }
 
-        public Kategori Rostorv1
-        {
-            get { return rosTorv1; }
-            set { rosTorv1 = value; }
-        }
-        public Kategori Rostorv2
-        {
-            get { return rosTorv2; }
-            set { rosTorv2 = value; }
-        }
-        public Kategori Rostorv3
-        {
-            get { return rosTorv3; }
-            set { rosTorv3 = value; }
-        }
-
-
-        public Common common { get; set; }
 
         public MainViewModel()
         {
-            common = Common.Instance;
-        }
+            Transport = Common.Instance.Kategori[5];
 
-
-        public override string ToString()
-        {
-            return string.Format("Oplev Roskilde: {0}, Sov godt: {1}, Spis godt: {2}", oplevroskilde, sovgodt, spisgodt);
         }
 
 
 
 
+
+        #region 
 
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -108,5 +89,8 @@ namespace TuristApp5.ViewModel
             PropertyChangedEventHandler handler = PropertyChanged;
             if (handler != null) handler(this, new PropertyChangedEventArgs(propertyName));
         }
+
+        #endregion
+
     }
 }

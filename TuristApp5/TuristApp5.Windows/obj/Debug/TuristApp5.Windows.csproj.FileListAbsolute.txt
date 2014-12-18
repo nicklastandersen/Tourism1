@@ -49,7 +49,6 @@ C:\Users\Nicklas\documents\visual studio 2013\Projects\TuristApp5\TuristApp5\Tur
 C:\Users\Nicklas\documents\visual studio 2013\Projects\TuristApp5\TuristApp5\TuristApp5.Windows\obj\Debug\View\SplitPage1.g.cs
 C:\Users\Nicklas\documents\visual studio 2013\Projects\TuristApp5\TuristApp5\TuristApp5.Windows\obj\Debug\View\SplitPage1.xaml
 C:\Users\Nicklas\documents\visual studio 2013\Projects\TuristApp5\TuristApp5\TuristApp5.Windows\obj\Debug\View\SplitPage1.xbf
-C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\obj\Debug\TuristApp5.Windows.csprojResolveAssemblyReference.cache
 C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\obj\Debug\App.g.i.cs
 C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\obj\Debug\App.g.cs
 C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\obj\Debug\View\MainPage.g.i.cs
@@ -96,3 +95,9 @@ C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\obj\Deb
 C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\obj\Debug\qualifiers.txt.intermediate
 C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\obj\Debug\ProjectArchitectures.txt
+C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\bin\Debug\View\Rating.xbf
+C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\obj\Debug\View\Rating.g.i.cs
+C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\obj\Debug\View\Rating.g.cs
+C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\obj\Debug\View\Rating.xaml
+C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\obj\Debug\View\Rating.xbf
+C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\obj\Debug\TuristApp5.Windows.csprojResolveAssemblyReference.cache

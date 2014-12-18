@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
   <Roots.PropertyPathNames>
-    <RootPropertyPathName Name="DefaultViewModel" />
     <RootPropertyPathName Name="Transport" />
     <RootPropertyPathName Name="Navn" />
     <RootPropertyPathName Name="Billede" />
@@ -10,31 +9,30 @@
     <RootPropertyPathName Name="Sovgodt" />
     <RootPropertyPathName Name="Spisgodt" />
     <RootPropertyPathName Name="Oplevroskilde" />
-    <RootPropertyPathName Name="SelectedKategori" />
+    <RootPropertyPathName Name="DefaultViewModel" />
     <RootPropertyPathName Name="NavigationHelper" />
     <RootPropertyPathName Name="GoBackCommand" />
+    <RootPropertyPathName Name="Common" />
+    <RootPropertyPathName Name="SelectedBeskrivelse" />
+    <RootPropertyPathName Name="Beskrivelse1" />
+    <RootPropertyPathName Name="Billed1" />
+    <RootPropertyPathName Name="Navn1" />
+    <RootPropertyPathName Name="Hjemmeside" />
+    <RootPropertyPathName Name="SelectedKategori" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
-      <RootProperty Name="DataContext" />
       <RootProperty Name="Resources" />
+      <RootProperty Name="DataContext" />
       <RootProperty Name="Content" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Data.Binding">
-      <RootProperty Name="RelativeSource" />
-      <RootProperty Name="Mode" />
-      <RootProperty Name="ElementName" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Data.RelativeSource">
-      <RootProperty Name="Mode" />
-    </RootType>
     <RootType FullName="System.String" />
+    <RootType FullName="TuristApp5.ViewModel.MainViewModel" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Background" />
       <RootProperty Name="Height" />
       <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="DataContext" />
       <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="ChildrenTransitions" />
       <RootProperty Name="RowDefinitions" />
@@ -48,7 +46,6 @@
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
     </RootType>
-    <RootType FullName="TuristApp5.ViewModel.MainViewModel" />
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
     </RootType>
@@ -65,6 +62,8 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
+      <RootProperty Name="DataContext" />
+      <RootProperty Name="Stretch" />
       <RootEvent Name="PointerPressed" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
@@ -79,28 +78,18 @@
       <RootProperty Name="Height" />
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="Width" />
+      <RootProperty Name="DataContext" />
       <RootProperty Name="Style" />
       <RootProperty Name="IsHitTestVisible" />
-      <RootProperty Name="DataContext" />
       <RootEvent Name="PointerPressed" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="Mode" />
+      <RootProperty Name="RelativeSource" />
+      <RootProperty Name="ElementName" />
+    </RootType>
     <RootType FullName="TuristApp5.View.MainPage" />
-    <RootType FullName="Windows.UI.Xaml.Controls.ListViewItem">
-      <RootProperty Name="Content" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Height" />
-      <RootProperty Name="Width" />
-      <RootProperty Name="Foreground" />
-      <RootProperty Name="DataContext" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.HyperlinkButton">
-      <RootProperty Name="Content" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="VerticalAlignment" />
-    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Data.RelativeSource" />
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Margin" />
       <RootProperty Name="Command" />
@@ -116,6 +105,18 @@
       <RootMethod Name="SetItemType" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension" />
+    <RootType FullName="TuristApp5.View.Rating" />
+    <RootType FullName="Windows.UI.Xaml.Controls.HyperlinkButton">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="NavigateUri" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="Foreground" />
+    </RootType>
     <RootType FullName="TuristApp5.View.Underkategori" />
   </Roots.RootTypes>
 </Roots>

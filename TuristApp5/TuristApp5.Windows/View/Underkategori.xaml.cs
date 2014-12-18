@@ -102,5 +102,10 @@ namespace TuristApp5.View
         }
 
         #endregion
+
+        private void TextBlock_PointerEntered(object sender, PointerRoutedEventArgs e)
+        {
+
+        }
     }
 }

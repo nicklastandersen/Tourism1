@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-12-11T12:19:55.099</Modified>
+      <Modified>2014-12-18T12:45:22.226</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\bin\Debug\TuristApp5.Windows.exe">
       <PackagePath>TuristApp5.Windows.exe</PackagePath>
-      <Modified>2014-12-11T13:00:44.608</Modified>
+      <Modified>2014-12-18T12:45:21.701</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\packages\Microsoft.Bcl.Async.1.0.168\lib\win8\Microsoft.Threading.Tasks.dll">
       <PackagePath>Microsoft.Threading.Tasks.dll</PackagePath>
@@ -96,25 +96,33 @@
       <PackagePath>Assets\minimal_grey-1280x800.jpg</PackagePath>
       <Modified>2014-12-03T11:22:08.572</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\Assets\Vikingeskibsmuseet.JPG">
+      <PackagePath>Assets\Vikingeskibsmuseet.JPG</PackagePath>
+      <Modified>2014-12-18T12:25:44.921</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2014-12-08T15:37:42.927</Modified>
+      <Modified>2014-12-18T11:51:59.355</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\bin\Debug\View\MainPage.xbf">
       <PackagePath>View\MainPage.xbf</PackagePath>
-      <Modified>2014-12-11T12:19:52.748</Modified>
+      <Modified>2014-12-18T12:45:20.566</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\bin\Debug\View\Rating.xbf">
+      <PackagePath>View\Rating.xbf</PackagePath>
+      <Modified>2014-12-18T11:51:59.364</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\bin\Debug\View\Underkategori.xbf">
       <PackagePath>View\Underkategori.xbf</PackagePath>
-      <Modified>2014-12-11T13:00:43.630</Modified>
+      <Modified>2014-12-18T12:45:20.577</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\bin\Debug\TuristApp5.Windows.xr.xml">
       <PackagePath>TuristApp5.Windows.xr.xml</PackagePath>
-      <Modified>2014-12-11T13:00:43.444</Modified>
+      <Modified>2014-12-18T12:45:20.505</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-12-11T12:19:54.475</Modified>
+      <Modified>2014-12-18T12:45:22.028</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

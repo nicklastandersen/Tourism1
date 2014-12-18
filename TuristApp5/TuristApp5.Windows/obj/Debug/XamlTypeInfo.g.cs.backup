@@ -124,37 +124,35 @@ namespace TuristApp5.TuristApp5_Windows_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[14];
+            _typeNameTable = new string[13];
             _typeNameTable[0] = "TuristApp5.ViewModel.MainViewModel";
             _typeNameTable[1] = "Object";
-            _typeNameTable[2] = "System.Collections.ObjectModel.ObservableCollection`1<TuristApp5.Model.Kategori>";
-            _typeNameTable[3] = "System.Collections.ObjectModel.Collection`1<TuristApp5.Model.Kategori>";
-            _typeNameTable[4] = "TuristApp5.Model.Kategori";
-            _typeNameTable[5] = "String";
-            _typeNameTable[6] = "TuristApp5.View.Beskrivelse";
-            _typeNameTable[7] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[8] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[9] = "TuristApp5.Common.ObservableDictionary";
-            _typeNameTable[10] = "TuristApp5.Common.NavigationHelper";
-            _typeNameTable[11] = "Windows.UI.Xaml.DependencyObject";
-            _typeNameTable[12] = "TuristApp5.View.MainPage";
-            _typeNameTable[13] = "TuristApp5.View.SplitPage1";
+            _typeNameTable[2] = "TuristApp5.ViewModel.Common";
+            _typeNameTable[3] = "TuristApp5.Model.Kategori";
+            _typeNameTable[4] = "TuristApp5.View.MainPage";
+            _typeNameTable[5] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[6] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[7] = "TuristApp5.Common.ObservableDictionary";
+            _typeNameTable[8] = "String";
+            _typeNameTable[9] = "TuristApp5.Common.NavigationHelper";
+            _typeNameTable[10] = "Windows.UI.Xaml.DependencyObject";
+            _typeNameTable[11] = "TuristApp5.View.Rating";
+            _typeNameTable[12] = "TuristApp5.View.Underkategori";
 
-            _typeTable = new global::System.Type[14];
+            _typeTable = new global::System.Type[13];
             _typeTable[0] = typeof(global::TuristApp5.ViewModel.MainViewModel);
             _typeTable[1] = typeof(global::System.Object);
-            _typeTable[2] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::TuristApp5.Model.Kategori>);
-            _typeTable[3] = typeof(global::System.Collections.ObjectModel.Collection<global::TuristApp5.Model.Kategori>);
-            _typeTable[4] = typeof(global::TuristApp5.Model.Kategori);
-            _typeTable[5] = typeof(global::System.String);
-            _typeTable[6] = typeof(global::TuristApp5.View.Beskrivelse);
-            _typeTable[7] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[8] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[9] = typeof(global::TuristApp5.Common.ObservableDictionary);
-            _typeTable[10] = typeof(global::TuristApp5.Common.NavigationHelper);
-            _typeTable[11] = typeof(global::Windows.UI.Xaml.DependencyObject);
-            _typeTable[12] = typeof(global::TuristApp5.View.MainPage);
-            _typeTable[13] = typeof(global::TuristApp5.View.SplitPage1);
+            _typeTable[2] = typeof(global::TuristApp5.ViewModel.Common);
+            _typeTable[3] = typeof(global::TuristApp5.Model.Kategori);
+            _typeTable[4] = typeof(global::TuristApp5.View.MainPage);
+            _typeTable[5] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[6] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[7] = typeof(global::TuristApp5.Common.ObservableDictionary);
+            _typeTable[8] = typeof(global::System.String);
+            _typeTable[9] = typeof(global::TuristApp5.Common.NavigationHelper);
+            _typeTable[10] = typeof(global::Windows.UI.Xaml.DependencyObject);
+            _typeTable[11] = typeof(global::TuristApp5.View.Rating);
+            _typeTable[12] = typeof(global::TuristApp5.View.Underkategori);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -190,25 +188,12 @@ namespace TuristApp5.TuristApp5_Windows_XamlTypeInfo
         }
 
         private object Activate_0_MainViewModel() { return new global::TuristApp5.ViewModel.MainViewModel(); }
-        private object Activate_2_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::TuristApp5.Model.Kategori>(); }
-        private object Activate_3_Collection() { return new global::System.Collections.ObjectModel.Collection<global::TuristApp5.Model.Kategori>(); }
-        private object Activate_6_Beskrivelse() { return new global::TuristApp5.View.Beskrivelse(); }
-        private object Activate_9_ObservableDictionary() { return new global::TuristApp5.Common.ObservableDictionary(); }
-        private object Activate_12_MainPage() { return new global::TuristApp5.View.MainPage(); }
-        private object Activate_13_SplitPage1() { return new global::TuristApp5.View.SplitPage1(); }
-        private void VectorAdd_2_ObservableCollection(object instance, object item)
-        {
-            var collection = (global::System.Collections.Generic.ICollection<global::TuristApp5.Model.Kategori>)instance;
-            var newItem = (global::TuristApp5.Model.Kategori)item;
-            collection.Add(newItem);
-        }
-        private void VectorAdd_3_Collection(object instance, object item)
-        {
-            var collection = (global::System.Collections.Generic.ICollection<global::TuristApp5.Model.Kategori>)instance;
-            var newItem = (global::TuristApp5.Model.Kategori)item;
-            collection.Add(newItem);
-        }
-        private void MapAdd_9_ObservableDictionary(object instance, object key, object item)
+        private object Activate_3_Kategori() { return new global::TuristApp5.Model.Kategori(); }
+        private object Activate_4_MainPage() { return new global::TuristApp5.View.MainPage(); }
+        private object Activate_7_ObservableDictionary() { return new global::TuristApp5.Common.ObservableDictionary(); }
+        private object Activate_11_Rating() { return new global::TuristApp5.View.Rating(); }
+        private object Activate_12_Underkategori() { return new global::TuristApp5.View.Underkategori(); }
+        private void MapAdd_7_ObservableDictionary(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
             var newKey = (global::System.String)key;
@@ -229,16 +214,13 @@ namespace TuristApp5.TuristApp5_Windows_XamlTypeInfo
             case 0:   //  TuristApp5.ViewModel.MainViewModel
                 userType = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.Activator = Activate_0_MainViewModel;
-                userType.AddMemberName("Kategoriviser");
+                userType.AddMemberName("Common");
                 userType.AddMemberName("Oplevroskilde");
                 userType.AddMemberName("Sovgodt");
                 userType.AddMemberName("Spisgodt");
                 userType.AddMemberName("Turforslag");
                 userType.AddMemberName("Goorange");
                 userType.AddMemberName("Transport");
-                userType.AddMemberName("Rostorv1");
-                userType.AddMemberName("Rostorv2");
-                userType.AddMemberName("Rostorv3");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -247,80 +229,72 @@ namespace TuristApp5.TuristApp5_Windows_XamlTypeInfo
                 xamlType = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 2:   //  System.Collections.ObjectModel.ObservableCollection`1<TuristApp5.Model.Kategori>
-                userType = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<TuristApp5.Model.Kategori>"));
-                userType.CollectionAdd = VectorAdd_2_ObservableCollection;
+            case 2:   //  TuristApp5.ViewModel.Common
+                userType = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 3:   //  System.Collections.ObjectModel.Collection`1<TuristApp5.Model.Kategori>
-                userType = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_3_Collection;
-                userType.CollectionAdd = VectorAdd_3_Collection;
-                xamlType = userType;
-                break;
-
-            case 4:   //  TuristApp5.Model.Kategori
-                userType = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.AddMemberName("Navn");
-                userType.AddMemberName("Billede");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 5:   //  String
-                xamlType = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+            case 3:   //  TuristApp5.Model.Kategori
+                userType = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
                 break;
 
-            case 6:   //  TuristApp5.View.Beskrivelse
+            case 4:   //  TuristApp5.View.MainPage
                 userType = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_6_Beskrivelse;
+                userType.Activator = Activate_4_MainPage;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 7:   //  Windows.UI.Xaml.Controls.Page
+            case 5:   //  Windows.UI.Xaml.Controls.Page
                 xamlType = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 8:   //  Windows.UI.Xaml.Controls.UserControl
+            case 6:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 9:   //  TuristApp5.Common.ObservableDictionary
+            case 7:   //  TuristApp5.Common.ObservableDictionary
                 userType = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.DictionaryAdd = MapAdd_9_ObservableDictionary;
+                userType.DictionaryAdd = MapAdd_7_ObservableDictionary;
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 10:   //  TuristApp5.Common.NavigationHelper
+            case 8:   //  String
+                xamlType = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 9:   //  TuristApp5.Common.NavigationHelper
                 userType = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 11:   //  Windows.UI.Xaml.DependencyObject
+            case 10:   //  Windows.UI.Xaml.DependencyObject
                 xamlType = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 12:   //  TuristApp5.View.MainPage
+            case 11:   //  TuristApp5.View.Rating
                 userType = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_12_MainPage;
+                userType.Activator = Activate_11_Rating;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 13:   //  TuristApp5.View.SplitPage1
+            case 12:   //  TuristApp5.View.Underkategori
                 userType = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_13_SplitPage1;
+                userType.Activator = Activate_12_Underkategori;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
@@ -331,154 +305,104 @@ namespace TuristApp5.TuristApp5_Windows_XamlTypeInfo
         }
 
 
-        private object get_0_MainViewModel_Kategoriviser(object instance)
+        private object get_0_MainViewModel_Common(object instance)
         {
             var that = (global::TuristApp5.ViewModel.MainViewModel)instance;
-            return that.Kategoriviser;
+            return that.Common;
         }
-        private void set_0_MainViewModel_Kategoriviser(object instance, object Value)
+        private void set_0_MainViewModel_Common(object instance, object Value)
         {
             var that = (global::TuristApp5.ViewModel.MainViewModel)instance;
-            that.Kategoriviser = (global::System.Collections.ObjectModel.ObservableCollection<global::TuristApp5.Model.Kategori>)Value;
+            that.Common = (global::TuristApp5.ViewModel.Common)Value;
         }
-        private object get_1_Kategori_Navn(object instance)
-        {
-            var that = (global::TuristApp5.Model.Kategori)instance;
-            return that.Navn;
-        }
-        private void set_1_Kategori_Navn(object instance, object Value)
-        {
-            var that = (global::TuristApp5.Model.Kategori)instance;
-            that.Navn = (global::System.String)Value;
-        }
-        private object get_2_Kategori_Billede(object instance)
-        {
-            var that = (global::TuristApp5.Model.Kategori)instance;
-            return that.Billede;
-        }
-        private void set_2_Kategori_Billede(object instance, object Value)
-        {
-            var that = (global::TuristApp5.Model.Kategori)instance;
-            that.Billede = (global::System.String)Value;
-        }
-        private object get_3_MainViewModel_Oplevroskilde(object instance)
+        private object get_1_MainViewModel_Oplevroskilde(object instance)
         {
             var that = (global::TuristApp5.ViewModel.MainViewModel)instance;
             return that.Oplevroskilde;
         }
-        private void set_3_MainViewModel_Oplevroskilde(object instance, object Value)
+        private void set_1_MainViewModel_Oplevroskilde(object instance, object Value)
         {
             var that = (global::TuristApp5.ViewModel.MainViewModel)instance;
             that.Oplevroskilde = (global::TuristApp5.Model.Kategori)Value;
         }
-        private object get_4_MainViewModel_Sovgodt(object instance)
+        private object get_2_MainViewModel_Sovgodt(object instance)
         {
             var that = (global::TuristApp5.ViewModel.MainViewModel)instance;
             return that.Sovgodt;
         }
-        private void set_4_MainViewModel_Sovgodt(object instance, object Value)
+        private void set_2_MainViewModel_Sovgodt(object instance, object Value)
         {
             var that = (global::TuristApp5.ViewModel.MainViewModel)instance;
             that.Sovgodt = (global::TuristApp5.Model.Kategori)Value;
         }
-        private object get_5_MainViewModel_Spisgodt(object instance)
+        private object get_3_MainViewModel_Spisgodt(object instance)
         {
             var that = (global::TuristApp5.ViewModel.MainViewModel)instance;
             return that.Spisgodt;
         }
-        private void set_5_MainViewModel_Spisgodt(object instance, object Value)
+        private void set_3_MainViewModel_Spisgodt(object instance, object Value)
         {
             var that = (global::TuristApp5.ViewModel.MainViewModel)instance;
             that.Spisgodt = (global::TuristApp5.Model.Kategori)Value;
         }
-        private object get_6_MainViewModel_Turforslag(object instance)
+        private object get_4_MainViewModel_Turforslag(object instance)
         {
             var that = (global::TuristApp5.ViewModel.MainViewModel)instance;
             return that.Turforslag;
         }
-        private void set_6_MainViewModel_Turforslag(object instance, object Value)
+        private void set_4_MainViewModel_Turforslag(object instance, object Value)
         {
             var that = (global::TuristApp5.ViewModel.MainViewModel)instance;
             that.Turforslag = (global::TuristApp5.Model.Kategori)Value;
         }
-        private object get_7_MainViewModel_Goorange(object instance)
+        private object get_5_MainViewModel_Goorange(object instance)
         {
             var that = (global::TuristApp5.ViewModel.MainViewModel)instance;
             return that.Goorange;
         }
-        private void set_7_MainViewModel_Goorange(object instance, object Value)
+        private void set_5_MainViewModel_Goorange(object instance, object Value)
         {
             var that = (global::TuristApp5.ViewModel.MainViewModel)instance;
             that.Goorange = (global::TuristApp5.Model.Kategori)Value;
         }
-        private object get_8_MainViewModel_Transport(object instance)
+        private object get_6_MainViewModel_Transport(object instance)
         {
             var that = (global::TuristApp5.ViewModel.MainViewModel)instance;
             return that.Transport;
         }
-        private void set_8_MainViewModel_Transport(object instance, object Value)
+        private void set_6_MainViewModel_Transport(object instance, object Value)
         {
             var that = (global::TuristApp5.ViewModel.MainViewModel)instance;
             that.Transport = (global::TuristApp5.Model.Kategori)Value;
         }
-        private object get_9_MainViewModel_Rostorv1(object instance)
-        {
-            var that = (global::TuristApp5.ViewModel.MainViewModel)instance;
-            return that.Rostorv1;
-        }
-        private void set_9_MainViewModel_Rostorv1(object instance, object Value)
-        {
-            var that = (global::TuristApp5.ViewModel.MainViewModel)instance;
-            that.Rostorv1 = (global::TuristApp5.Model.Kategori)Value;
-        }
-        private object get_10_MainViewModel_Rostorv2(object instance)
-        {
-            var that = (global::TuristApp5.ViewModel.MainViewModel)instance;
-            return that.Rostorv2;
-        }
-        private void set_10_MainViewModel_Rostorv2(object instance, object Value)
-        {
-            var that = (global::TuristApp5.ViewModel.MainViewModel)instance;
-            that.Rostorv2 = (global::TuristApp5.Model.Kategori)Value;
-        }
-        private object get_11_MainViewModel_Rostorv3(object instance)
-        {
-            var that = (global::TuristApp5.ViewModel.MainViewModel)instance;
-            return that.Rostorv3;
-        }
-        private void set_11_MainViewModel_Rostorv3(object instance, object Value)
-        {
-            var that = (global::TuristApp5.ViewModel.MainViewModel)instance;
-            that.Rostorv3 = (global::TuristApp5.Model.Kategori)Value;
-        }
-        private object get_12_Beskrivelse_DefaultViewModel(object instance)
-        {
-            var that = (global::TuristApp5.View.Beskrivelse)instance;
-            return that.DefaultViewModel;
-        }
-        private object get_13_Beskrivelse_NavigationHelper(object instance)
-        {
-            var that = (global::TuristApp5.View.Beskrivelse)instance;
-            return that.NavigationHelper;
-        }
-        private object get_14_MainPage_DefaultViewModel(object instance)
+        private object get_7_MainPage_DefaultViewModel(object instance)
         {
             var that = (global::TuristApp5.View.MainPage)instance;
             return that.DefaultViewModel;
         }
-        private object get_15_MainPage_NavigationHelper(object instance)
+        private object get_8_MainPage_NavigationHelper(object instance)
         {
             var that = (global::TuristApp5.View.MainPage)instance;
             return that.NavigationHelper;
         }
-        private object get_16_SplitPage1_DefaultViewModel(object instance)
+        private object get_9_Rating_DefaultViewModel(object instance)
         {
-            var that = (global::TuristApp5.View.SplitPage1)instance;
+            var that = (global::TuristApp5.View.Rating)instance;
             return that.DefaultViewModel;
         }
-        private object get_17_SplitPage1_NavigationHelper(object instance)
+        private object get_10_Rating_NavigationHelper(object instance)
         {
-            var that = (global::TuristApp5.View.SplitPage1)instance;
+            var that = (global::TuristApp5.View.Rating)instance;
+            return that.NavigationHelper;
+        }
+        private object get_11_Underkategori_DefaultViewModel(object instance)
+        {
+            var that = (global::TuristApp5.View.Underkategori)instance;
+            return that.DefaultViewModel;
+        }
+        private object get_12_Underkategori_NavigationHelper(object instance)
+        {
+            var that = (global::TuristApp5.View.Underkategori)instance;
             return that.NavigationHelper;
         }
 
@@ -489,112 +413,82 @@ namespace TuristApp5.TuristApp5_Windows_XamlTypeInfo
 
             switch (longMemberName)
             {
-            case "TuristApp5.ViewModel.MainViewModel.Kategoriviser":
+            case "TuristApp5.ViewModel.MainViewModel.Common":
                 userType = (global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TuristApp5.ViewModel.MainViewModel");
-                xamlMember = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlMember(this, "Kategoriviser", "System.Collections.ObjectModel.ObservableCollection`1<TuristApp5.Model.Kategori>");
-                xamlMember.Getter = get_0_MainViewModel_Kategoriviser;
-                xamlMember.Setter = set_0_MainViewModel_Kategoriviser;
-                break;
-            case "TuristApp5.Model.Kategori.Navn":
-                userType = (global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TuristApp5.Model.Kategori");
-                xamlMember = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlMember(this, "Navn", "String");
-                xamlMember.Getter = get_1_Kategori_Navn;
-                xamlMember.Setter = set_1_Kategori_Navn;
-                break;
-            case "TuristApp5.Model.Kategori.Billede":
-                userType = (global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TuristApp5.Model.Kategori");
-                xamlMember = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlMember(this, "Billede", "String");
-                xamlMember.Getter = get_2_Kategori_Billede;
-                xamlMember.Setter = set_2_Kategori_Billede;
+                xamlMember = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlMember(this, "Common", "TuristApp5.ViewModel.Common");
+                xamlMember.Getter = get_0_MainViewModel_Common;
+                xamlMember.Setter = set_0_MainViewModel_Common;
                 break;
             case "TuristApp5.ViewModel.MainViewModel.Oplevroskilde":
                 userType = (global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TuristApp5.ViewModel.MainViewModel");
                 xamlMember = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlMember(this, "Oplevroskilde", "TuristApp5.Model.Kategori");
-                xamlMember.Getter = get_3_MainViewModel_Oplevroskilde;
-                xamlMember.Setter = set_3_MainViewModel_Oplevroskilde;
+                xamlMember.Getter = get_1_MainViewModel_Oplevroskilde;
+                xamlMember.Setter = set_1_MainViewModel_Oplevroskilde;
                 break;
             case "TuristApp5.ViewModel.MainViewModel.Sovgodt":
                 userType = (global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TuristApp5.ViewModel.MainViewModel");
                 xamlMember = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlMember(this, "Sovgodt", "TuristApp5.Model.Kategori");
-                xamlMember.Getter = get_4_MainViewModel_Sovgodt;
-                xamlMember.Setter = set_4_MainViewModel_Sovgodt;
+                xamlMember.Getter = get_2_MainViewModel_Sovgodt;
+                xamlMember.Setter = set_2_MainViewModel_Sovgodt;
                 break;
             case "TuristApp5.ViewModel.MainViewModel.Spisgodt":
                 userType = (global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TuristApp5.ViewModel.MainViewModel");
                 xamlMember = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlMember(this, "Spisgodt", "TuristApp5.Model.Kategori");
-                xamlMember.Getter = get_5_MainViewModel_Spisgodt;
-                xamlMember.Setter = set_5_MainViewModel_Spisgodt;
+                xamlMember.Getter = get_3_MainViewModel_Spisgodt;
+                xamlMember.Setter = set_3_MainViewModel_Spisgodt;
                 break;
             case "TuristApp5.ViewModel.MainViewModel.Turforslag":
                 userType = (global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TuristApp5.ViewModel.MainViewModel");
                 xamlMember = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlMember(this, "Turforslag", "TuristApp5.Model.Kategori");
-                xamlMember.Getter = get_6_MainViewModel_Turforslag;
-                xamlMember.Setter = set_6_MainViewModel_Turforslag;
+                xamlMember.Getter = get_4_MainViewModel_Turforslag;
+                xamlMember.Setter = set_4_MainViewModel_Turforslag;
                 break;
             case "TuristApp5.ViewModel.MainViewModel.Goorange":
                 userType = (global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TuristApp5.ViewModel.MainViewModel");
                 xamlMember = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlMember(this, "Goorange", "TuristApp5.Model.Kategori");
-                xamlMember.Getter = get_7_MainViewModel_Goorange;
-                xamlMember.Setter = set_7_MainViewModel_Goorange;
+                xamlMember.Getter = get_5_MainViewModel_Goorange;
+                xamlMember.Setter = set_5_MainViewModel_Goorange;
                 break;
             case "TuristApp5.ViewModel.MainViewModel.Transport":
                 userType = (global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TuristApp5.ViewModel.MainViewModel");
                 xamlMember = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlMember(this, "Transport", "TuristApp5.Model.Kategori");
-                xamlMember.Getter = get_8_MainViewModel_Transport;
-                xamlMember.Setter = set_8_MainViewModel_Transport;
-                break;
-            case "TuristApp5.ViewModel.MainViewModel.Rostorv1":
-                userType = (global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TuristApp5.ViewModel.MainViewModel");
-                xamlMember = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlMember(this, "Rostorv1", "TuristApp5.Model.Kategori");
-                xamlMember.Getter = get_9_MainViewModel_Rostorv1;
-                xamlMember.Setter = set_9_MainViewModel_Rostorv1;
-                break;
-            case "TuristApp5.ViewModel.MainViewModel.Rostorv2":
-                userType = (global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TuristApp5.ViewModel.MainViewModel");
-                xamlMember = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlMember(this, "Rostorv2", "TuristApp5.Model.Kategori");
-                xamlMember.Getter = get_10_MainViewModel_Rostorv2;
-                xamlMember.Setter = set_10_MainViewModel_Rostorv2;
-                break;
-            case "TuristApp5.ViewModel.MainViewModel.Rostorv3":
-                userType = (global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TuristApp5.ViewModel.MainViewModel");
-                xamlMember = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlMember(this, "Rostorv3", "TuristApp5.Model.Kategori");
-                xamlMember.Getter = get_11_MainViewModel_Rostorv3;
-                xamlMember.Setter = set_11_MainViewModel_Rostorv3;
-                break;
-            case "TuristApp5.View.Beskrivelse.DefaultViewModel":
-                userType = (global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TuristApp5.View.Beskrivelse");
-                xamlMember = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "TuristApp5.Common.ObservableDictionary");
-                xamlMember.Getter = get_12_Beskrivelse_DefaultViewModel;
-                xamlMember.SetIsReadOnly();
-                break;
-            case "TuristApp5.View.Beskrivelse.NavigationHelper":
-                userType = (global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TuristApp5.View.Beskrivelse");
-                xamlMember = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlMember(this, "NavigationHelper", "TuristApp5.Common.NavigationHelper");
-                xamlMember.Getter = get_13_Beskrivelse_NavigationHelper;
-                xamlMember.SetIsReadOnly();
+                xamlMember.Getter = get_6_MainViewModel_Transport;
+                xamlMember.Setter = set_6_MainViewModel_Transport;
                 break;
             case "TuristApp5.View.MainPage.DefaultViewModel":
                 userType = (global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TuristApp5.View.MainPage");
                 xamlMember = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "TuristApp5.Common.ObservableDictionary");
-                xamlMember.Getter = get_14_MainPage_DefaultViewModel;
+                xamlMember.Getter = get_7_MainPage_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "TuristApp5.View.MainPage.NavigationHelper":
                 userType = (global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TuristApp5.View.MainPage");
                 xamlMember = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlMember(this, "NavigationHelper", "TuristApp5.Common.NavigationHelper");
-                xamlMember.Getter = get_15_MainPage_NavigationHelper;
+                xamlMember.Getter = get_8_MainPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "TuristApp5.View.SplitPage1.DefaultViewModel":
-                userType = (global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TuristApp5.View.SplitPage1");
+            case "TuristApp5.View.Rating.DefaultViewModel":
+                userType = (global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TuristApp5.View.Rating");
                 xamlMember = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "TuristApp5.Common.ObservableDictionary");
-                xamlMember.Getter = get_16_SplitPage1_DefaultViewModel;
+                xamlMember.Getter = get_9_Rating_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "TuristApp5.View.SplitPage1.NavigationHelper":
-                userType = (global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TuristApp5.View.SplitPage1");
+            case "TuristApp5.View.Rating.NavigationHelper":
+                userType = (global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TuristApp5.View.Rating");
                 xamlMember = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlMember(this, "NavigationHelper", "TuristApp5.Common.NavigationHelper");
-                xamlMember.Getter = get_17_SplitPage1_NavigationHelper;
+                xamlMember.Getter = get_10_Rating_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "TuristApp5.View.Underkategori.DefaultViewModel":
+                userType = (global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TuristApp5.View.Underkategori");
+                xamlMember = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "TuristApp5.Common.ObservableDictionary");
+                xamlMember.Getter = get_11_Underkategori_DefaultViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "TuristApp5.View.Underkategori.NavigationHelper":
+                userType = (global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("TuristApp5.View.Underkategori");
+                xamlMember = new global::TuristApp5.TuristApp5_Windows_XamlTypeInfo.XamlMember(this, "NavigationHelper", "TuristApp5.Common.NavigationHelper");
+                xamlMember.Getter = get_12_Underkategori_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             }
