@@ -68,6 +68,9 @@
     <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\Assets\transport.png">
       <PackagePath>Assets\transport.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\Assets\roskildedomkirke.jpg">
+      <PackagePath>Assets\roskildedomkirke.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nicklas\Documents\GitHub\Tourism1\TuristApp5\TuristApp5.Windows\Assets\minimal_grey-1280x800.jpg">
       <PackagePath>Assets\minimal_grey-1280x800.jpg</PackagePath>
     </AppxPackagedFile>

@@ -78,7 +78,7 @@ namespace TuristApp5.ViewModel
            BeskrivelseModel oplevroskilde1 = new BeskrivelseModel() { Navn1 = "Vikingeskibsmuseet", Billed1 = "ms-appx:///assets/Vikingeskibsmuseet.JPG", Beskrivelse1 = "Vikingeskibsmuseet er et museum i Roskilde. Museets tema er skibe, søfart og bådebygningskultur fra Vikingetiden. I mange årtier før udgravningen af skibene, som blev påbegyndt i 1962, kendte de lokale fiskere på Roskilde Fjord til et gammelt skib på bunden af fjorden. Skibet kaldte de for Margreteskibet, da de mente, at det stammede tilbage fra Margrete 1.'s tid. Det skulle senere vise sig, at der var mange flere skibe, og at de var endnu ældre. Men allerede i 1920'erne blev der fjernet sten og trædele fra skibene, blandt andet et kølsvin og de blev fotograferet. Kølsvinet endte sine dage i en brændeovn en kold vinterdag under 2. verdenskrig.", Hjemmeside = "http://www.vikingeskibsmuseet.dk/" };
             Kategori[0].Beskrivelse.Add(oplevroskilde1);
 
-            BeskrivelseModel oplevroskilde2 = new BeskrivelseModel() { Navn1 = "Viking2" };
+            BeskrivelseModel oplevroskilde2 = new BeskrivelseModel() { Navn1 = "Roskilde Domkirke", Billed1 = "ms-appx:///assets/roskildedomkirke.JPG", Beskrivelse1 = "Roskilde Domkirke har været kongefamiliens gravkirke gennem århundreder og er optaget på UNESCO's liste over verdens umistelige kulturarv.", Hjemmeside = "http://www.roskildedomkirke.dk/" };
             Kategori[0].Beskrivelse.Add(oplevroskilde2);
 
 
@@ -101,7 +101,7 @@ namespace TuristApp5.ViewModel
             BeskrivelseModel transport1 = new BeskrivelseModel() {Navn1 = "Lokalbus"};
             Kategori[5].Beskrivelse.Add(transport1);
 
-            
+
       
 
         }

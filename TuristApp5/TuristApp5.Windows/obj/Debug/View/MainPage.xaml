@@ -14,6 +14,18 @@
         <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
         <x:String x:Key="AppName">My Application</x:String>
     </Page.Resources>
+    <Page.BottomAppBar>
+        <AppBar Height="92" Background="#FFE75711">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <AppBarButton HorizontalAlignment="Left" Label="Afslut" Margin="70,-4,0,0" VerticalAlignment="Top" Height="92" Width="94" Icon="Cancel"/>
+            </Grid>
+        </AppBar>
+
+    </Page.BottomAppBar>
     <Page.DataContext>
         <ViewModel:MainViewModel/>
     </Page.DataContext>
@@ -43,8 +55,9 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="9"/>
             <RowDefinition Height="120"/>
-            <RowDefinition Height="141*"/>
-            <RowDefinition Height="141*"/>
+            <RowDefinition Height="213*"/>
+            <RowDefinition Height="107*"/>
+            <RowDefinition Height="319*"/>
         </Grid.RowDefinitions>
 
         <!-- Back button and page title -->
@@ -61,26 +74,22 @@
 
         <!-- Koden herunder er en del af kategorivisningen på denne forside. Kategori visningen består af billeder og tekst, der er bindet sammen med klassen Kategori -->
 
-        <Image x:ConnectionId='1' x:Name="Billede_1" HorizontalAlignment="Left" VerticalAlignment="Bottom" NineGrid="0,0,0,10" Source="{Binding Oplevroskilde.Billede, Mode=TwoWay}" Grid.Row="2" Grid.Column="1"                                           Margin="0,0,0,132"/>
-        <TextBlock x:Name="Billede_1_1" Grid.Row="2" TextWrapping="Wrap" Text="{Binding Oplevroskilde.Navn}" Foreground="Black" FontSize="22" FontWeight="Bold" Margin="56,278,0,315" HorizontalAlignment="Left" Grid.Column="1" Grid.RowSpan="2"/>
-        <Image x:ConnectionId='2' x:Name="Billede_2" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Top" Source="{Binding Spisgodt.Billede}" Height="242" Width="242" Grid.Column="4"                                          >
+        <Image x:ConnectionId='1' x:Name="Billede_1" HorizontalAlignment="Left" VerticalAlignment="Bottom" NineGrid="0,0,0,10" Source="{Binding Oplevroskilde.Billede, Mode=TwoWay}" Grid.Row="2" Grid.Column="1"                                           Margin="0,0,0,25"/>
+        <TextBlock x:Name="Billede_1_1" Grid.Row="3" TextWrapping="Wrap" Text="{Binding Oplevroskilde.Navn}" Foreground="Black" FontSize="22" FontWeight="Bold" Margin="56,65,0,315" HorizontalAlignment="Left" Grid.Column="1" Grid.RowSpan="2"/>
+        <Image x:ConnectionId='2' x:Name="Billede_2" HorizontalAlignment="Left" Grid.Row="2" VerticalAlignment="Top" Source="{Binding Spisgodt.Billede}" Height="242" Width="242" Grid.Column="4"                                           Grid.RowSpan="2"/>
+        <TextBlock x:ConnectionId='3' x:Name="Billede_2_2" Grid.Row="3" TextWrapping="Wrap" Text="{Binding Spisgodt.Navn}" Foreground="Black" FontSize="22" FontWeight="Bold" Grid.Column="4" Margin="67,61,0,0" HorizontalAlignment="Left"                                            />
+        <Image x:ConnectionId='4' x:Name="Billede_3" HorizontalAlignment="Left" Margin="0,35,0,0" Grid.Row="2" VerticalAlignment="Top" Source="{Binding Sovgodt.Billede}" Height="182" Width="249" Grid.Column="7"                                           Grid.RowSpan="2">
             <Image.DataContext>
                 <ViewModel:MainViewModel/>
             </Image.DataContext>
         </Image>
-        <TextBlock x:ConnectionId='3' x:Name="Billede_2_2" Grid.Row="2" TextWrapping="Wrap" Text="{Binding Spisgodt.Navn}" Foreground="Black" FontSize="22" FontWeight="Bold" Grid.Column="4" Margin="67,274,0,0" HorizontalAlignment="Left"                                            />
-        <Image x:ConnectionId='4' x:Name="Billede_3" HorizontalAlignment="Left" Margin="0,35,0,0" Grid.Row="2" VerticalAlignment="Top" Source="{Binding Sovgodt.Billede}" Height="182" Width="249" Grid.Column="7"                                          >
-            <Image.DataContext>
-                <ViewModel:MainViewModel/>
-            </Image.DataContext>
-        </Image>
-        <TextBlock x:Name="Billede_3_3" Grid.Row="2" TextWrapping="Wrap" Text="{Binding Sovgodt.Navn}" Foreground="Black" FontSize="22" FontWeight="Bold" Grid.Column="7" Margin="81,278,0,0" HorizontalAlignment="Left"/>
-        <Image x:ConnectionId='5' x:Name="Billede_4" Grid.Column="1" HorizontalAlignment="Left" Margin="0,10,0,0" Grid.Row="3" VerticalAlignment="Top" Source="{Binding Turforslag.Billede}"                                          />
-        <TextBlock x:Name="Billede_4_4" Grid.Row="3" TextWrapping="Wrap" Text="{Binding Turforslag.Navn}" Foreground="Black" FontSize="22" FontWeight="Bold" Margin="56,263,0,10" HorizontalAlignment="Left" Grid.Column="1"/>
-        <Image x:ConnectionId='6' x:Name="Billede_5" Grid.Column="4" HorizontalAlignment="Left" Margin="0,10,0,0" Grid.Row="3" VerticalAlignment="Top" Source="{Binding Goorange.Billede}" Width="242" Height="242"                                          />
-        <TextBlock x:Name="Billede_5_5" Grid.Row="3" TextWrapping="Wrap" Text="{Binding Goorange.Navn}" Foreground="Black" FontSize="22" FontWeight="Bold" Margin="67,273,0,0" HorizontalAlignment="Left" Grid.Column="4"/>
-        <Image x:ConnectionId='7' x:Name="Billede_6" Grid.Column="7" HorizontalAlignment="Left" Height="242" Margin="0,10,0,0" Grid.Row="3" VerticalAlignment="Top" Width="242" Source="{Binding Transport.Billede}"                                          />
-        <TextBlock x:Name="Billede_6_6" Grid.Row="3" TextWrapping="Wrap" Text="{Binding Transport.Navn}" Foreground="Black" FontSize="22" FontWeight="Bold" Margin="76,273,0,0" HorizontalAlignment="Left" Grid.Column="7"/>
+        <TextBlock x:Name="Billede_3_3" Grid.Row="3" TextWrapping="Wrap" Text="{Binding Sovgodt.Navn}" Foreground="Black" FontSize="22" FontWeight="Bold" Grid.Column="7" Margin="81,65,0,0" HorizontalAlignment="Left"/>
+        <Image x:ConnectionId='5' x:Name="Billede_4" Grid.Column="1" HorizontalAlignment="Left" Margin="0,10,0,0" Grid.Row="4" VerticalAlignment="Top" Source="{Binding Turforslag.Billede}"                                          />
+        <TextBlock x:Name="Billede_4_4" Grid.Row="4" TextWrapping="Wrap" Text="{Binding Turforslag.Navn}" Foreground="Black" FontSize="22" FontWeight="Bold" Margin="56,263,0,10" HorizontalAlignment="Left" Grid.Column="1"/>
+        <Image x:ConnectionId='6' x:Name="Billede_5" Grid.Column="4" HorizontalAlignment="Left" Margin="0,10,0,0" Grid.Row="4" VerticalAlignment="Top" Source="{Binding Goorange.Billede}" Width="242" Height="242"                                          />
+        <TextBlock x:Name="Billede_5_5" Grid.Row="4" TextWrapping="Wrap" Text="{Binding Goorange.Navn}" Foreground="Black" FontSize="22" FontWeight="Bold" Margin="67,273,0,0" HorizontalAlignment="Left" Grid.Column="4"/>
+        <Image x:ConnectionId='7' x:Name="Billede_6" Grid.Column="7" HorizontalAlignment="Left" Height="242" Margin="0,10,0,0" Grid.Row="4" VerticalAlignment="Top" Width="242" Source="{Binding Transport.Billede}"                                          />
+        <TextBlock x:Name="Billede_6_6" Grid.Row="4" TextWrapping="Wrap" Text="{Binding Transport.Navn}" Foreground="Black" FontSize="22" FontWeight="Bold" Margin="76,273,0,0" HorizontalAlignment="Left" Grid.Column="7"/>
 
         <!-- Kode for ovenstående slutter her! -->
     </Grid>
